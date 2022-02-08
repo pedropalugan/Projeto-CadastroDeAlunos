@@ -186,7 +186,33 @@ function imprimirArray(id, array) {
 }
 
 
-function ordemAlfabetica(){
-    alert("Não foi possível colocar em ordem alfabética")
+function ordem(){
+    let lista = [];
+    for (let cont = 0; cont < qtdAluno; cont += 1){
+       //Cria a pessoa 1
+        let pessoa = {
+        nome: nomes[cont],
+        media: mediaList[cont]
+        };
+        
+        lista.push(pessoa);
+    }
+    lista.sort(function(a, b) {
+        if(a.nome < b.nome) {
+          return -1;
+        } else {
+          return true;
+        }
+      });  
+      
+      imprimirArray1('ordem_alfabetica', lista);
 }
 
+
+function imprimirArray1(id, array) {
+    let span = document.getElementById(id);
+    span.innerHTML = '';
+    for (let i = 0; i < array.length; i++) {
+        span.innerHTML += array[i].nome + ', Média: ' + array[i].media + '<br/>';
+    }
+}
