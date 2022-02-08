@@ -47,3 +47,10 @@ span{
     background-color: rgb(191, 191, 192);
     width: 25.6vw;
 }
+
+#Media_Final{
+    display: block;
+    background-color: rgb(191, 191, 192);
+    width: 25.6vw;
+    font-size: x-large;
+}
