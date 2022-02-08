@@ -27,32 +27,13 @@
 
         </table>
 
-        <div class="opcoes">
-            <ul>
-                <li><a class="btn-success" onclick="verificaMedias()">Verificar</a></li>
-                <li><a>Adicionar</a>
-                    <ul>
-                        <li class="back" onclick="adicionar_aluno()">+ Aluno</li>
-                        <li class="back" onclick="adicionar_nota()">+ Nota</li>
-                    </ul>
-                </li>
-                <li><a>Apagar</a>
-                    <ul>
-                        <li class="back" onclick="apagar_aluno()">- Aluno</li>
-                        <li class="back" onclick="apagar_nota()">- Nota</li>
-                    </ul>
-                </li>
-                <li><a>Ordem</a>
-                    <ul>
-                        <li class="back" onclick="ordemCrescente()">Crescente</li>
-                        <li class="back" onclick="ordemDecrescente()">Decrescente</li>
-                        <li class="back" onclick="ordemAlfabetica()">Alfabética</li>
-                    </ul>
-                </li>
-            </ul>
+    <button type="button" class="btn btn-success" onclick="verificaMedias()">Verificar</button>
+    <button type = "button" class="btn btn-secondary" onclick = "adicionar_aluno()" id = "adicionar-aluno">ADD ALUNO</button>
+    <button type="button"  class="btn btn-secondary" onclick="adicionar_nota()" id="adicionar-nota">ADD NOTA</button>
+    <button type="button" class="btn btn-secondary" onclick="apagar_aluno()" id="apagar-aluno">Apagar aluno</button>
+    <button type="button" class="btn btn-secondary" onclick="apagar_nota()" id="apagar-nota">Apagar nota</button>
+    <button type = "button" class = "btn btn-secondary" onclick="ordemAlfabetica()">ALFA</button> 
 
-            <span id="spanOrdenadaPorMedia"></span>
-        </div>
 
         <script src="script/script.js"></script>
     </body>
