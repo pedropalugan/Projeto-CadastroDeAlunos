@@ -50,7 +50,6 @@ https://pedropalugan.github.io/Projeto-CadastroDeAlunos/
 <h3>English</h3>
 <hr>
 <b>This repository was changed for a better usability from <a href = "https://github.com/pedropalugan">Pedro Palugan</a>. However, all the participants mentioned above did something on this project</b>
-<b>Esse repositório foi mudado para uma melhor usabilidade de <a href = "https://github.com/pedropalugan">Pedro Palugan</a>. Porém, todos os participantes citados acima fizeram parte da produção do mesmo</b>
 
 <h3>Português</h3>
 <hr>
