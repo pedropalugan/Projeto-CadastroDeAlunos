@@ -46,5 +46,5 @@ https://pedropalugan.github.io/Projeto-CadastroDeAlunos/
   [Pedro Palugan](https://github.com/pedropalugan "GitHub do Pedro")
 
     
-##Atention
+## Atention <br>
 <b>This repository was changed for a better usability from <a href = "https://github.com/pedropalugan">Pedro Palugan</a>. However, all the participants mentioned above did something on this project</b>
