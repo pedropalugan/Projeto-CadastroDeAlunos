@@ -5,6 +5,7 @@ let x = 5
 let nomeAluno = "";
 let nomes = [];
 let mediaList = [];
+let mediaGeral = 0;
 
 var table = document.getElementById("table");
 
@@ -14,6 +15,7 @@ let cellsNumber = 7;
 function verificaMedias(){
     nomes = []
     mediaList = []
+    let mediaGeral = 0
     for(let y = 1; y <= qtdAluno; y = y + 1){
         let resultado = 0
         for(let x = 1; x <= (cellsNumber - 3); x = x + 1){
@@ -35,12 +37,24 @@ function verificaMedias(){
             document.getElementById(`situacao${y}`).style.color = "red"
         }
 
+        mediaGeral += media;
+
+
         nomeAluno = document.getElementById(`aluno${y}`).value;
         mediaAluno = document.getElementById(`media${y}`).value;
+
+
 
         nomes.push(nomeAluno);
         mediaList.push(mediaAluno);
     }
+    mediaFinal = mediaGeral/qtdAluno
+
+}
+
+function media_geral(){
+    
+    document.getElementById("Media_Final").innerText = mediaFinal
 }
 
 // Função para adicionar Aluno
