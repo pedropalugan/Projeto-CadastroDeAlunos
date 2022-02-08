@@ -2,7 +2,7 @@
 
 Primeiro projeto desenvolvido em Squad através do curso técnico<br>
 
-https://matheusalvarez.github.io/Projeto-CadastroDeAlunos/
+https://pedropalugan.github.io/Projeto-CadastroDeAlunos/
 
 ## Objetivo:
  Realizar uma plataforma de inserção de notas do semestre de um grupo de alunos:
@@ -46,3 +46,5 @@ https://matheusalvarez.github.io/Projeto-CadastroDeAlunos/
   [Pedro Palugan](https://github.com/pedropalugan "GitHub do Pedro")
 
     
+##Atention
+<b>This repository was changed for a better usability from <a href = "https://github.com/pedropalugan">Pedro Palugan</a>. However, all the participants mentioned above did something on this project</b>
